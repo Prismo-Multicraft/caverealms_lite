@@ -1,10 +1,11 @@
 --thin ice to water
+--[[
 minetest.register_craft({
 	output = "default:water_source",
 	type = "shapeless",
 	recipe = {"caverealms:thin_ice"}
 })
-
+--]]
 --use for coal dust
 minetest.register_craft({
 	output = "default:coalblock",
